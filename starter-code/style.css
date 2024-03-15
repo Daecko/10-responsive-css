@@ -1,0 +1,505 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+#overflow-wrapper{
+    overflow-x: hidden;
+}
+header{
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-b{
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: var(--13183F, #13183F);
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    border: none;
+}
+#header-b:hover{
+    cursor: pointer;
+    background: var(--666CA3, #666CA3);
+}
+.top-page{
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+}
+.top-page-info{
+    padding-left: 2rem;
+    width: 457px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+#top-page-title{
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#top-page-desc{
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+#top-page-b{
+    border: none;
+    width: 167px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 31.5px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+#top-page-b:hover{
+    cursor: pointer;
+    background: var(--Gradient-1-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+.woman-stats{
+    position: absolute;
+    top: -10rem;
+    right: -15rem;
+    z-index: -1;
+    /* width: 991.631px;
+    height: 936.917px; */
+}
+.courses-grid{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 322px 322px;
+    padding: 5rem 3rem;
+    margin-top: 5rem;
+    gap: 2rem 1rem;
+}
+.courses{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.course-icon{
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    margin-top: -2rem;
+}
+.course-title{
+    color: var(--13183F, #13183F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.course-desc{
+    color: var(--83869A, #83869A);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.course-b{
+    color: var(--F74780, #F74780);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.course-b:hover{
+    cursor: pointer;
+    color: var(--FFA7C3, #FFA7C3);
+}
+#courses-1{
+    color: var(--FFFFFF, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 125% */
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+#courses-1-text{
+    margin: 3rem 3rem;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background: var(--13183F, #13183F);
+}
+#footer-b{
+    border: none;
+    width: 167px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    color: var(--FFFFFF, #FFF);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+#footer-b:hover{
+    cursor: pointer;
+    background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
+}
+@media only screen and (max-width:769px) {
+    /* header{} */
+    #d-logo{
+        height: 35px;
+        width: auto;
+    }
+    #header-b{
+        width: 140px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: var(--13183F, #13183F);
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 175% */
+        border: none;
+    }
+    /*#header-b:hover{
+        cursor: pointer;
+        background: var(--666CA3, #666CA3);
+    }*/
+    .top-page{
+        display: flex;
+        position: relative;
+        margin-top: 3rem;
+    }
+    .top-page-info{
+        padding-left: 2rem;
+        width: 457px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #top-page-title{
+        margin-bottom: 0;
+        color: var(--13183F, #13183F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "Plus Jakarta Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    #top-page-desc{
+        color: var(--83869A, #83869A);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    #top-page-b{
+        border: none;
+        width: 167px;
+        height: 57px;
+        flex-shrink: 0;
+        border-radius: 31.5px;
+        background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 155.556% */
+    }
+    .woman-stats{
+        content: url("assets/image-hero-tablet.png");
+        top: -15rem;
+        right: -20rem;
+    }
+    .courses-grid{
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 340px 340px;
+        grid-template-rows: 259px 259px 259px;
+        padding: 5rem 3rem;
+        margin-top: 5rem;
+        gap: 2rem 1rem;
+    }
+    .courses{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: var(--FFFFFF, #FFF);
+        box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    }
+    .course-icon{
+        width: 56px;
+        height: 56px;
+        flex-shrink: 0;
+        margin-top: -2rem;
+    }
+    .course-title{
+        color: var(--13183F, #13183F);
+        font-family: "Plus Jakarta Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .course-desc{
+        margin-top: 0;
+        color: var(--83869A, #83869A);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .course-b{
+        margin-top: 0;
+        color: var(--F74780, #F74780);
+        font-family: "Plus Jakarta Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+    }
+    .course-b:hover{
+        cursor: pointer;
+        color: var(--FFA7C3, #FFA7C3);
+    }
+    #courses-1{
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 32px; /* 133.333% */
+        background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    }
+    #courses-1-text{
+        margin: 3rem 2rem;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        background: var(--13183F, #13183F);
+    }
+    #footer-b{
+        border: none;
+        width: 140px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+    }
+}
+@media only screen and (max-width:376px) {
+    header{
+        padding: .5rem .5rem;
+    }
+    #header-b{
+        width: 140px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: var(--13183F, #13183F);
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 175% */
+        border: none;
+    }
+    /*#header-b:hover{
+        cursor: pointer;
+        background: var(--666CA3, #666CA3);
+    }*/
+    .top-page{
+        display: flex;
+        flex-direction: column;
+        position: inherit;
+        margin-top: 3rem;
+    }
+    .top-page-info{
+        padding: 1rem;
+        width: 100%;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #top-page-title{
+        margin-bottom: 0;
+        color: var(--13183F, #13183F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "Plus Jakarta Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    #top-page-desc{
+        width: 343px;
+        color: var(--83869A, #83869A);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    #top-page-b{
+        border: none;
+        width: 167px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 31.5px;
+        background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 155.556% */
+    }
+    .woman-stats{
+        content: url("assets/image-hero-mobile.png");
+        position: inherit;
+    }
+    .courses-grid{
+        display: grid;
+        grid-template-columns: 343px;
+        grid-template-rows: 150px;
+        padding: 3rem 3rem;
+        margin-top: 0rem;
+        gap: 2rem 1rem;
+    }
+    .courses{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: var(--FFFFFF, #FFF);
+        box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    }
+    .course-icon{
+        width: 56px;
+        height: 56px;
+        flex-shrink: 0;
+        margin-top: -2rem;
+    }
+    .course-title{
+        color: var(--13183F, #13183F);
+        font-family: "Plus Jakarta Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .course-desc{
+        margin-top: 0;
+        color: var(--83869A, #83869A);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .course-b{
+        margin-top: 0;
+        color: var(--F74780, #F74780);
+        font-family: "Plus Jakarta Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+    }
+    .course-b:hover{
+        cursor: pointer;
+        color: var(--FFA7C3, #FFA7C3);
+    }
+    #courses-1{
+        height: 120px;
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 32px; /* 133.333% */
+        background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    }
+    #courses-1-text{
+        margin: 2rem 1rem;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 1rem;
+        background: var(--13183F, #13183F);
+    }
+    #footer-b{
+        border: none;
+        width: 140px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        color: var(--FFFFFF, #FFF);
+        font-family: "Plus Jakarta Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 175% */
+    }
+}
