@@ -180,7 +180,7 @@ footer{
     cursor: pointer;
     background: var(--Gradient-2-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%));
 }
-@media only screen and (max-width:769px) {
+@media only screen and (max-width:1024px) {
     /* header{} */
     #d-logo{
         height: 35px;
@@ -342,7 +342,7 @@ footer{
         line-height: 28px; /* 155.556% */
     }
 }
-@media only screen and (max-width:376px) {
+@media only screen and (max-width:481px) {
     header{
         padding: .5rem .5rem;
     }
