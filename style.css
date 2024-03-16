@@ -342,7 +342,7 @@ footer{
         line-height: 28px; /* 155.556% */
     }
 }
-@media only screen and (max-width:481px) {
+@media only screen and (max-width:720px) {
     header{
         padding: .5rem .5rem;
     }
